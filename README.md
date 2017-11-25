@@ -18,14 +18,20 @@ This works similar to the `alias` command:
     # print all aliases
     $ brew alias
 
-    # print one alias
-    $ brew alias up
+    $ brew alias service=services
+    $ brew alias s-list='services list'
+
+    $ brew unalias lsof
+    $ brew alias lsof='!losf -i'
+    $ brew lsof :443
 
     # use your aliases like any other command
     $ brew i git
-
     # remove an alias
     $ brew unalias i
+
+
+brew i akrisiun/omni-mono
 
 **Note:** Some commands are reserved and can’t be aliased (Homebrew core
 commands as well as `alias` and `unalias`).
