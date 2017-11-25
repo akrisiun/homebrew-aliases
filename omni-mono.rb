@@ -6,7 +6,7 @@ class OmniMono < Formula
     homepage "http://www.omnisharp.net/"
     url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.27.2/omnisharp.http-mono.tar.gz"
     version "1.27.2"
-    sha256 "80a9ff14f5939c1cf32bc6264d4c813ee0a6c23027a3301338f94858d6b79c31"
+    sha256 "22c65610d4bd797bb532d45c3a2366b79d445563e9f8f5bba4208938268f9d29"
     # conflicts_with "omnisharp"
     depends_on "mono" => :recommended
   
