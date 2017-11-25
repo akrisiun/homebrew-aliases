@@ -39,6 +39,13 @@ brew alias up=update
 brew tap akrisiun/aliases
 brew up
 brew i akrisiun/aliases/omni-mono
+
+mono --version
+# expected: 5.4.1
+which mono
+/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono
+code /usr/local/Cellar/omni-mono/1.27.2/bin/omnisharp
+# mono /usr/local/opt/omni-mono/libexec/OmniSharp.exe $@
 ```
 
 **Note:** Some commands are reserved and can’t be aliased (Homebrew core
