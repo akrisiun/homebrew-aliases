@@ -30,8 +30,16 @@ This works similar to the `alias` command:
     # remove an alias
     $ brew unalias i
 
+## C# mono and netCore
 
-brew i akrisiun/omni-mono
+```
+brew alias i=install
+brew alias up=update
+
+brew tap akrisiun/aliases
+brew up
+brew i akrisiun/aliases/omni-mono
+```
 
 **Note:** Some commands are reserved and can’t be aliased (Homebrew core
 commands as well as `alias` and `unalias`).

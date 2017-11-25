@@ -1,6 +1,7 @@
-class OmnisharpMono < Formula
+class OmniMono < Formula
 #   brew tap  akrisiun/aliases
-#   brew i akrisiun/omni-mono
+#   brew i akrisiun/aliases/omni-mono
+
     desc "Cross platform .NET development in the editor of your choice"
     homepage "http://www.omnisharp.net/"
     url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.27.2/omnisharp.http-mono.tar.gz"
