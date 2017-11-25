@@ -4,6 +4,7 @@ This tap allows you to alias your [Homebrew](https://brew.sh/) commands.
 
 ## Install
 
+    brew tap akrisiun/aliases
     brew tap homebrew/aliases
 
 ## Usage
